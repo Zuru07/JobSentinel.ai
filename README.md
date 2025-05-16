@@ -24,25 +24,17 @@ The application uses a Random Forest model trained on the `fake_job_postings.csv
 ### Random Forest (Best Model):
 
 - **F1-score (class 1)**: 0.8246
-- **Precision (class 1)**: 0.8343
-- **Recall (class 1)**: 0.8150
-- **Accuracy**: 0.9832
-- **ROC-AUC**: 0.9862
 - **Training Time**: 112.35 seconds
-- **Confusion Matrix**: `[[3375, 28], [32, 141]]`
+
 
 ### XGBoost:
 
 - **F1-score (class 1)**: 0.7605
-- **Precision (class 1)**: 0.7888
-- **Recall (class 1)**: 0.7341
 - **Training Time**: 20.33 seconds
 
 ### Logistic Regression:
 
 - **F1-score (class 1)**: 0.7644
-- **Precision (class 1)**: 0.7600
-- **Recall (class 1)**: 0.7688
 - **Training Time**: 3.50 seconds
 
 > The Random Forest model was selected for its superior F1-score and recall, ensuring it catches most fraudulent postings while maintaining high accuracy.
