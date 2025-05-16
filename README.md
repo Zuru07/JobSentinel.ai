@@ -8,12 +8,6 @@ A Streamlit app to detect fake job postings using machine learning.
 
 **JobSentinel.ai** is a machine learning-powered web application designed to identify fraudulent job postings. Built with Python and Streamlit, it uses a Random Forest model to predict whether a job posting is fraudulent based on features like job title, description, and company profile. The app provides a user-friendly interface with a custom design ("Fake Job Detector" branding) and no Streamlit logo.
 
-### Key Features
-
-- **Fraud Detection**: Predicts if a job posting is fraudulent with high accuracy (Random Forest F1-score: 0.8246).
-- **Custom UI**: Branded as "Fake Job Detector" with a custom favicon and no Streamlit branding.
-- **Direct Prediction**: Uses a pre-trained model (`best_model.joblib`) for fast, API-free predictions.
-- **Optimized Performance**: Achieved high recall (0.8150) for catching fraudulent postings and reduced training time to ~136 seconds.
 
 ---
 
@@ -25,7 +19,6 @@ The application uses a Random Forest model trained on the `fake_job_postings.csv
 
 - **F1-score (class 1)**: 0.8246
 - **Training Time**: 112.35 seconds
-
 
 ### XGBoost:
 
@@ -122,7 +115,7 @@ Enter job posting details (title, description, etc.) and click "Predict" to see 
 - Description: "Join our team and make money fast."
 
 **Output**:
-- Red warning: "Warning: This job posting is likely fraudulent (Probability: 43.00%)"
+![image](https://github.com/user-attachments/assets/a32a9020-6089-4e8d-8b47-bbe3375334b8)
 
 #### Legitimate Posting:
 
@@ -131,30 +124,7 @@ Enter job posting details (title, description, etc.) and click "Predict" to see 
 - Description: "Develop web applications using Python."
 
 **Output**:
-- Green message: "This job posting appears legitimate (Fraud Probability: 7.67%)"
-
----
-
-## Deployment
-
-The app is deployed on Streamlit Cloud for public access.
-
-### Live URL:
-
-[https://jobsentinel.streamlit.app](https://jobsentinel.streamlit.app) *(Update this link after deployment)*
-
-### Deploying on Streamlit Cloud
-
-1. Push the repository to GitHub (see Installation).
-2. Sign in to Streamlit Community Cloud with GitHub.
-3. Create a new app:
-
-   - **Repository**: `Zuru07/JobSentinel.ai`
-   - **Branch**: `main`
-   - **Main file**: `streamlit_app.py`
-   - **App name**: `jobsentinel` (or a variation if taken)
-
-4. Deploy and access the app at `https://jobsentinel.streamlit.app`.
+![image](https://github.com/user-attachments/assets/79900a71-7b9d-417b-9b14-05c3d4afb90c)
 
 ---
 
