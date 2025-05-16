@@ -166,13 +166,7 @@ python train_model.py
   ```python
   smote = SMOTE(sampling_strategy=0.7, random_state=52)
   ```
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+  
 ---
 
 ## Contributing
@@ -183,7 +177,6 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 
 ## Acknowledgments
 
-- **Dataset**: Fake Job Postings Dataset
+- **Dataset**: Fake Job Postings Dataset : https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction?resource=download
 - **Libraries**: Streamlit, scikit-learn, XGBoost, imbalanced-learn, NLTK
-- **Developer**: Zuru07
 
